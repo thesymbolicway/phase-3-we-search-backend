@@ -85,5 +85,4 @@ r18 = Review.create(review: "My car was looking like Fred Flinstones afterwards"
 r18 = Review.create(review: "Solid work", user_id: u3.id, place_id: p29.id, star_rating: rand(1..5))
 r19 = Review.create(review: "They tried to fill my Tesla up with gas", user_id: u3.id, place_id: p32.id, star_rating: rand(1..5))
 
-
 puts "✅ Done seeding!"
